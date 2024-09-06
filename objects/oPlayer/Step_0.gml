@@ -24,6 +24,8 @@ if (place_meeting(x+hsp, y, oWall))
 	hsp = 0;	
 }
 
+x = x + hsp;
+
 //Vertical Collision Check
 if (place_meeting(x, y+vsp, oWall))
 {
@@ -34,6 +36,39 @@ if (place_meeting(x, y+vsp, oWall))
 	vsp = 0;	
 }
 
-//Move Player
-x = x + hsp;
 y = y + vsp;
+
+//Animation Updates
+if (!place_meeting(x, y+1, oWall))
+{
+	sprite_index = sPlayerAirborne;
+	image_speed = 0; //for holding on the first sprite in the sheet
+	
+	if (sign(vsp) > 0)
+	{
+		image_index = 1;
+	}
+	else
+	{
+		image_index = 0;
+	}
+}
+else
+{
+	image_speed = 1;
+	if (hsp == 0)
+	{
+		sprite_index = sPlayer;
+	}
+	else
+	{
+		sprite_index = sPlayerRunning;
+	}
+}
+
+
+//Orient Player Based on Direction Movement
+if (hsp != 0)
+{
+	image_xscale = sign(hsp);
+}
