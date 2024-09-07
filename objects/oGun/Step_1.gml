@@ -1,3 +1,4 @@
+/// @description Update Gun (Behind Player)
 //Begin Step causes object to be 1 frame behind the player adding weight anim
 
 //Allign gun to player
@@ -35,7 +36,7 @@ else
 firingdelay = firingdelay - 1;
 recoil = max(0, recoil - 1);
 
-//Spawn new bullets with mouse click
+//Spawn new bullets with mouse click or controller trigger
 if ((mouse_check_button(mb_left)) || gamepad_button_check(0,gp_shoulderrb)) && (firingdelay < 0)
 {
 	recoil = 4;

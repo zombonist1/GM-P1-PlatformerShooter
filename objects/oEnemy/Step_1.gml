@@ -1,3 +1,5 @@
+/// @description Check if Dead
+
 if (hp <= 0)
 {
 	with (instance_create_layer(x,y,layer,oEnemyDead))

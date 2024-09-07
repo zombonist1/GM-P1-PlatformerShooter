@@ -1,3 +1,5 @@
+/// @description Setup Enemy
+
 //Enemy Vars
 vsp = 0;
 grv = 0.3;

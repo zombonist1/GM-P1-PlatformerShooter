@@ -1,3 +1,5 @@
+/// @description Update Enemy
+
 //Calculate Movement
 vsp = vsp + grv;
 

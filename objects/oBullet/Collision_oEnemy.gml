@@ -1,3 +1,5 @@
+/// @description Check Enemy Collision
+
 with (other) //returns id of obj of collision
 {
 	hp--;

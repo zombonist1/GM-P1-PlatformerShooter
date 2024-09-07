@@ -1,3 +1,5 @@
+/// @description Update Dead Enemy
+
 if (done == 0)
 {
 	//Calculate Movement

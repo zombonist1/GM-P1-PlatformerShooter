@@ -1,3 +1,5 @@
+/// @description Setup Player
+
 //Player Vars
 hsp = 0;
 vsp = 0;

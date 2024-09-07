@@ -1,3 +1,5 @@
+/// @description Update Player
+
 //Player Input Detetction
 key_left = keyboard_check(ord("A")) || keyboard_check(vk_left);
 key_right = keyboard_check(ord("D")) || keyboard_check(vk_right);
