@@ -20,7 +20,7 @@
   "height":48,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"09b7ff6a-58a3-4057-8143-78e6f94cbccf","blendMode":0,"displayName":"default","isLocked":false,"name":"09b7ff6a-58a3-4057-8143-78e6f94cbccf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d45850b7-afe9-4dfc-8f81-8c580e6ef36f","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"d45850b7-afe9-4dfc-8f81-8c580e6ef36f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sPlayerAirborne",
   "nineSlice":{
