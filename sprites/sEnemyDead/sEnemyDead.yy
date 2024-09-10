@@ -20,7 +20,7 @@
   "height":48,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"7ebf8b71-3766-4c38-81f3-615fbfb3dfb2","blendMode":0,"displayName":"default","isLocked":false,"name":"7ebf8b71-3766-4c38-81f3-615fbfb3dfb2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d3d69894-34ca-4ca0-8f77-8cb5ac1dc18e","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"d3d69894-34ca-4ca0-8f77-8cb5ac1dc18e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sEnemyDead",
   "nineSlice":null,

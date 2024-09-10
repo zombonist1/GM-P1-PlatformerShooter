@@ -20,7 +20,7 @@
   "height":48,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"682cbeee-ac90-4302-9aff-d0fc2c75be84","blendMode":0,"displayName":"default","isLocked":false,"name":"682cbeee-ac90-4302-9aff-d0fc2c75be84","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c669bea3-cbc0-4c11-8082-405a1fc6de0e","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"c669bea3-cbc0-4c11-8082-405a1fc6de0e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sEnemyAirborne",
   "nineSlice":null,

@@ -22,7 +22,7 @@
   "height":48,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"c5f1a880-faac-4bcd-97a4-cd240256ab20","blendMode":0,"displayName":"default","isLocked":false,"name":"c5f1a880-faac-4bcd-97a4-cd240256ab20","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"c9f878bc-5bd4-4c9f-888d-50d2378a1093","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"c9f878bc-5bd4-4c9f-888d-50d2378a1093","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sEnemyRunning",
   "nineSlice":null,
