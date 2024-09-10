@@ -41,6 +41,16 @@ if ((mouse_check_button(mb_left)) || gamepad_button_check(0,gp_shoulderrb)) && (
 {
 	recoil = 4;
 	firingdelay = 5;
+	mag--;
+	
+	if (mag <= 0)
+	{
+		instance_create_layer(x, y, "Bullets", oReload);
+		
+		mag = 30;
+		firingdelay = 100;
+	}
+	
 	with (instance_create_layer(x, y, "Bullets", oBullet))
 	{
 		speed = 25;
