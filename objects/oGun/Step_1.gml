@@ -42,6 +42,7 @@ if ((mouse_check_button(mb_left)) || gamepad_button_check(0,gp_shoulderrb)) && (
 	recoil = 4;
 	firingdelay = 5;
 	mag--;
+	ScreenShake(2,10);
 	
 	if (mag <= 0)
 	{
